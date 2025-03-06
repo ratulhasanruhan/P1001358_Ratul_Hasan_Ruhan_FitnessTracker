@@ -61,5 +61,15 @@ namespace P1001358_Ratul_Hasan_Ruhan_FitnessTracker
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            frmLogin frmLogin = new frmLogin();
+            frmLogin.Show();
+
+            this.Hide();
+
+        }
     }
 }
